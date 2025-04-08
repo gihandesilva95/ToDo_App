@@ -1,0 +1,136 @@
+/* Task List */
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form {
+  width: 40%;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(0 0 0);
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 ;
+  border: 2px solid #444444;
+  border-radius: 5px;
+  background: #e2e2f7;
+  
+}
+
+.text-field {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 10px 0 ;
+  border: 2px solid #444444;
+  border-radius: 5px;
+  background: #e2e2f7;
+  
+}
+
+.add-btn {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #004792;
+}
+
+.divider {
+  width: 2px;
+  background: #ddd;
+  margin: 0 20px;
+}
+
+.task-list {
+  width: 55%;
+  padding: 20px;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background: #dfdede;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+
+.task-info p {
+  margin: 5px 0;
+  color: #666;
+  text-align: left;
+}
+
+.done-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.done-btn:hover {
+  background: #18722b;
+}
+
+.done-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.title-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
