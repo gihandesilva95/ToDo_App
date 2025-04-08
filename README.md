@@ -56,6 +56,9 @@ A simple To-Do task management application built with Laravel 12, Vue.js 3.5, an
     `git clone <repository_url>`
     cd ToDo_App
 
+    # Copy .env file in todo-backend
+        `cp .env.example .env`
+
 ### 2. run project
     `docker compose up --build`
 
